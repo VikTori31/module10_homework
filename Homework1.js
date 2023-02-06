@@ -1,10 +1,10 @@
-let a = prompt('Введите значение');
-let b = +a;
-if ( Number.isNaN(b) ) {
+let numb = prompt ( 'Введите значение' ) ;
+let value = + numb ;
+if ( Number.isNaN( value ) ) {
   console.log ( 'Упс, кажется, вы ошиблись' )
-}else{
-  if ( typeof b === "number"){
-  if ( b % 2 !== 0){
+} else {
+  if ( typeof value === "number"){
+  if ( value % 2 !== 0){
     console.log ( 'Нечетное число' )
   } else {
     console.log ( 'Четное число' )
